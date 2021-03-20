@@ -1,2 +1,2 @@
-# Assembly-String-Primitives
- x86 MASM Implementation of String Primitives
+# MASM Implementation of String Primitives
+ This program uses Assembly Language to take a list of numbers from the user. It will then convert these 10 numbers from strings to integers. It calculates the sum and the average of the integers. It then converts the numbers back into strings for printing. It uses Irvine's ReadString and WriteString, but it does not use ReadInt/ReadDec or WriteInt/WriteDec. There is data validation to confirm that the number entered is valid, and also to detect + and - at the beginning of numbers to include signed negatives.
